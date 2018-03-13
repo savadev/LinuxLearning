@@ -1,0 +1,5 @@
+#!/bin/bash
+# make a log file with name of current date
+today=$(date +%y%m%d)
+who > log.$today
+
