@@ -1,0 +1,11 @@
+#!/bin/bash
+#Testing nested ifs -- using elif
+testUser=root
+
+if grep $testUser /etc/passwd
+  then 
+    echo "The user $testUser exits in the file"
+  elif ls -d /home/$testUser
+    then
+      echo "Whatever it is"
+fi

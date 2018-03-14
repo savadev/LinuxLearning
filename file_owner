@@ -1,0 +1,11 @@
+#!/bin/bash
+# check the file ownership
+
+if [ -O /etc/passwd ]
+  then
+    echo "You are the owner of the /etc/passwd"
+  else
+    echo "Sorry, you are not the user!"
+fi
+
+

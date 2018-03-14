@@ -1,0 +1,5 @@
+#!/bin/bash
+#using bc in shell scripts
+var1=$(echo "scale=4;3.4/5"|bc)
+echo The answer is $var1
+

@@ -1,0 +1,10 @@
+#!/bin/bash
+#the first if commands
+testUser=kehaozhang
+if grep $testUser /etc/passwd
+  then
+    echo "First Command!"
+    echo "Second Command!"
+    ls -a /home/$testUser/.b*
+fi
+

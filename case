@@ -1,0 +1,12 @@
+#!/bin/bash
+#using the case statement
+
+user=kehaozhang
+case $user in
+  kehaozhang|kiwi)
+    echo "Welcome, $user";;
+  xinran)
+    echo "Grumpy girl.";;
+  *)
+    echo "You are not welcome!";;
+esac
